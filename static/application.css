@@ -67,7 +67,20 @@ textarea {
 	text-align: center;
 	background: #00222b;
 }
-
+#box1 a{
+	text-decoration: none;
+	font-size: 30px;
+	color: #fff;
+	transition: 0.5s all ease-in;
+}
+#box1 a:hover{
+	color: rgb(31, 201, 216);
+}
+#note{
+	padding: 5px;
+	font-size: 12px;
+	color: #727171;
+}
 #box2 {
 	background: #08323c;
 	font-size: 0px;
