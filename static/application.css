@@ -37,6 +37,9 @@ textarea {
 }
 
 /* code box when locked */
+#key {
+	background: #002B36 !important;
+}
 
 #box {
 	padding: 0px;
@@ -50,7 +53,7 @@ textarea {
 
 #box code {
 	padding: 0px;
-	background: transparent !important; /* don't hide hastebox */
+	background: transparent !important;
 }
 
 /* key */
@@ -59,7 +62,7 @@ textarea {
 	position: fixed;
 	top: 0px;
 	right: 0px;
-	z-index: +1000; /* watch out */
+	z-index: +1000;
 }
 
 #box1 {
@@ -107,7 +110,7 @@ textarea {
 }
 
 #box2 .link embed {
-	vertical-align: bottom; /* fix for zeroClipboard style */
+	vertical-align: bottom;
 }
 
 #box2 .function.enabled:hover {
