@@ -1,6 +1,6 @@
-# Starbin
+# Live Link
 
-A hastebin-compatible paste site running on Cloudflare Workers / Pages.
+[https://bin.naaeem.com/](https://bin.naaeem.com/)
 
 # Deployment
 
@@ -19,8 +19,3 @@ To deploy as a Pages project you will need to follow these steps:
   - ``DOCUMENT_EXPIRE_TTL``: Number of seconds until documents expire
 
 And that's it! You may now set a custom domain if you'd like the site to be available outside of workers.dev
-
-# TODO
-
-I did not invest any time into creating my own frontend yet, all static
-assets are copied from the original [haste-server](https://github.com/seejohnrun/haste-server).
